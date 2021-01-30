@@ -3,42 +3,46 @@
 
 <head>
  <title>Student Bio</title>
+ <link rel="stylesheet" type="text/css" href="week1-day2-html-css/style.css">
 </head>
 
 <body>
 
  
  <!-- Site Header -->
+ <div class="container"></div>
  <header>
   <!-- Section 1: Bio -->
-  <h1>Student Bio</h1>
+  <h1 class="container">Student Bio</h1>
  </header>
+</div>
 
- <div>
-
+ <div class>
+   
    <!-- Section 1: Bio -->
-   <section>
+   <section id= "main-bio">
     <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-    <h2>James Sewere</h2>
+    <h2 class=>James Sewere</h2>
 
     <!-- Image with link -->
-    <img src="https://placehold.it/200x200" alt="James Sewere">
-
+    <div style="text-align:center;">
+    <img src="https://placehold.it/200x200" alt="James Sewere" id="bio-image">
+   </div>
     <!-- Paragraph with embedded link -->
     <p>I like to frolic through a field of tulips.  I enjoy hearing the sounds of the ocean while watching the sun rise.  Bake cakes and pies while feeling the breeze of the spring wind.  To watch the birds sing and the deer drink from the creek.  While listening to the collections of pure genius from Johann Sebastian Bach.  Ok I may not do any of those things but, I do enjoy J.S Bach</p>
    </section>
 
    <!-- Section 2: Contact info -->
-   <section>
+   <section id="contact-inf">
 
     <!-- h2: Tier-2 Headline -->
     <h2><strong>Contact Info</strong></h2>
 
     <!-- Unordered list -->
     <ul>
-     <li><strong>Email:</strong> <a href="#">Windycreek@gmail.com</a></li>
-     <li><strong>Github</strong> <a href="#">Placeholderbach</a></li>
-     <li><strong>Portfolio</strong> <a href="#">Coming Soon</a></li>
+     <li><strong>Email:</strong> <a href id= "contact-info">Windycreek@gmail.com</a></li>
+     <li><strong>Github</strong> <a href id="contact-info">Placeholderbach</a></li>
+     <li><strong>Portfolio</strong> <a href id="contact-info">Coming Soon</a></li>
     </ul>
    </section>
  </div>
